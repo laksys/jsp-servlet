@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>candidate</title>
+	<style>
+		body { margin: 0 auto; width: 80%; background:gold; }
+		fieldset { width: 350px; }
+		label { display: block; padding:5px; text-align:right; }
+	</style>
+</head>
+<body>
+	<h1>Candidate</h1>
+
+	<fieldset>
+		<legend>Candidate add</legend>
+		<form method="post" action="add">
+		<label>
+			Candiate name: <input name="cname"/>
+		</label>
+		<label>
+			Father name: <input name="fname"/>
+		</label>
+		<label>
+			Gender:
+				<input type="radio" name="gender" value="m"/> Male
+				<input type="radio" name="gender" value="f"/>Female
+		</label>
+		<label>
+			Mobile: <input name="mobile"/>
+		</label>
+		<label>
+			Address: <textarea name="address" rows="4" cols="25"></textarea>
+		</label>
+		<label>
+			<input type="submit"/>
+		</label>				
+		</form>
+	</fieldset>
+</body>
+</html>
